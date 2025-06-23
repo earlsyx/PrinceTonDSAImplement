@@ -27,7 +27,7 @@ public class QuickFindUF
     }
 
     public void Print()
-        Console.WriteLine("Current state: " + string.Join("
-    {, ", id));
+    {
+        Console.WriteLine("Current state: " + string.Join(", ", id));
     }
 }
