@@ -6,7 +6,8 @@ class Program
     {
         //var uf = new QuickFindUF(10); // n*2
         //var uf = new QuickUnionUF(10); // n
-        var uf = new WeightedQuickUnionUF(10); // log n
+        //var uf = new WeightedQuickUnionUF(10); // log n
+        var uf = new WeightedQuickUnionWithPathCompressionUF(10); // mear constant log n
 
         uf.Union(4, 3);
         uf.Union(3, 8);
