@@ -4,7 +4,8 @@ class Program
 {
     static void Main()
     {
-        var uf = new QuickFindUF(10); // This should work now!
+        //var uf = new QuickFindUF(10); // n*2
+        var uf = new QuickUnionUF(10); // n
 
         uf.Union(4, 3);
         uf.Union(3, 8);
