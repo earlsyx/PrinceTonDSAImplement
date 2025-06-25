@@ -21,13 +21,16 @@ class Program
         //uf.Print();
 
         // --- 3 sum bruite force
-        int[] numbers = { -2, -1, 0, 1, 2, 3 };
-        var threeSum = new ThreeSumBruitForce();
-        int result = threeSum.Count(numbers);
+        //int[] numbers = { -2, -1, 0, 1, 2, 3 };
+        //var threeSum = new ThreeSumBruitForce();
+        //int result = threeSum.Count(numbers);
 
-        Console.WriteLine($"Number of triplet that sum to 0: {result}");
-        
+        //Console.WriteLine($"Number of triplet that sum to 0: {result}");
 
+        // --- Binary Search Algo
+
+        var binarySearch = new BinarySearch();
+        binarySearch.ImplementationAlgo();
         Console.ReadLine(); // Pause the console
     }
 }
